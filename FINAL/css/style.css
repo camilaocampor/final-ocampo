@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=DM+Sans:wght@400;500;700&family=Lato:wght@300;400;700;900&display=swap');
+@font-face {
+    font-family:myFont ;
+    src: url(../tipografia/BebasNeue-Regular.ttf);
+    font-weight: 700;
+  }
+
+.row { min-height: 200px;}
+.img-thumbnail { border:2px ;}
+.img-fluid {border: 2px ;}
+
+button
+{
+  border: none;
+  background-color: white;
+}
+
+body{  
+    font-family: 'Lato', sans-serif;}
+
+p {
+    font-family: myFont;
+   color: black;
+}
+
+.navbar-brand
+{
+    font-family: myFont;
+    color: black;
+    font-size: 2em;
+    animation-name: animation1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.nav-link
+{
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+
+h2
+{
+  font-family: myFont;
+  color: black;
+}
+h3
+{
+  font-family: myFont;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+h1
+{
+  font-family: myFont;
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+  font-size: 4em;
+}
+
+
+footer {
+    background-color: black;
+    height: 370px;
+    margin-top: 61px;
+}
+
+@keyframes animation1 {
+    from{
+        color:black
+
+    }
+
+    to{
+        color:pink
+
+    }
+    
+}
